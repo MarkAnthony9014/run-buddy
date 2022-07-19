@@ -233,14 +233,6 @@ h3 {
     color: #024e76;
 }
 
-.trainer {
-  margin: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex: 1;
-}
-
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -249,8 +241,15 @@ h3 {
   justify-content: space-around;
 }
 
-.trainer img {
-  
+.trainer {
+  margin: 20px;
+  flex: 1;
+  background: #024e76;
+  color: #fce138;
+}
+
+.trainers img {
+width: 100%;
 }
 
 .trainer-bio {
@@ -258,18 +257,6 @@ h3 {
   line-height: 1.3;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align:right;
-}
-
-.flex-row {
-  display: flex;
-
-}
 
 .trainer-bio h3 {
   font-size: 28px;
@@ -352,3 +339,16 @@ h3 {
 
 /* REACH OUT STYLES END */
 
+/*Utility Classes*/
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align:right;
+}
+
+.flex-row {
+  display: flex;
+
+}
